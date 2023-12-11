@@ -48,7 +48,7 @@ with st.sidebar:
         options=["Home","Project"]
     )
 if selected == "Home":
-    st.header('PROJECT MACHINE LEARNING', divider='rainbow')
+    st.header('PROJECT MACHINE LEARNING')
     st.write('Pada project ini akan membahas tentang proses crawling web Indo Times, melakukan normalisasi data abstrak, pemrposesan LDA untuk reduksi dimensi dan membuat model klasifikasi menggunakan DecisionTree')
 
     st.write("## **Crawling**")
